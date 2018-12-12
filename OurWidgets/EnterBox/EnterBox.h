@@ -13,12 +13,10 @@ public:
         {
             case  FL_ENTER:
                  color(FL_GREEN);
-                 labelsize(14);
                  redraw();
                  return 1;
             case  FL_LEAVE:
                  color(FL_GRAY);
-                 labelsize(14);
                  redraw();
                  return 1;
             case FL_PUSH:
