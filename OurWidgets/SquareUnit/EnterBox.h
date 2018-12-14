@@ -16,7 +16,6 @@ public:
         : Fl_Box(x,y,w,h,l)
         , isable{ab}
         , square{s}
-        , square2{NULL}
         {
         }
 
