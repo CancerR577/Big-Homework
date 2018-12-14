@@ -28,6 +28,6 @@ public:
         }
 private:
     bool isable;
-    SquareUnit *square;//用于激活相应的SquareUnit
-    SquareUnit *square2;//大部分边对应两个方块
+    SquareUnit *square;//鐢ㄤ簬婵�娲荤浉搴旂殑SquareUnit
+    SquareUnit *square2;//澶ч儴鍒嗚竟瀵瑰簲涓や釜鏂瑰潡
 };
