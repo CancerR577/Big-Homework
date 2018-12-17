@@ -1,4 +1,4 @@
-#include "SimpleBoard.h"
+#include "OurWidgets/SimpleBoard.h"
 
 int main(int argc, char **argv)
 {
