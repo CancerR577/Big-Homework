@@ -79,7 +79,7 @@ Squares::Squares(int r, int c,StartAndEnd* sae, int t)
             {
                 for (j = 0; j < c; j++)
                 {
-                    s[i][j] = new SquareUnit(x + D + L * j, y + D + L * i / 2 + L * j, L - D, L - D, 6, this);
+                    s[i][j] = new SquareUnit(x + D + L * j, y + D + L * i + L * j / 2, L - D, L - D, 6, this);
                 }
             }
             for (j = 0; j < c + 1; j++)
