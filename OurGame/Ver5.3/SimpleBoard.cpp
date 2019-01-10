@@ -9,9 +9,9 @@ SimpleBoard::SimpleBoard(int r, int c,StartAndEnd* sae, int t)
     {
         if (t == 1)
         {
-            const int X { 50 };
-            const int Y { 100 };
-            const int LX { 900 };
+            const int X { 200 };
+            const int Y { 90 };
+            const int LX { 600 };
             const int LY { 600 };
             const int L { min( LY / (r + 1), LX / (c + 1)) };
             const int D { L / 10 };
@@ -81,9 +81,9 @@ SimpleBoard::SimpleBoard(int r, int c,StartAndEnd* sae, int t)
         }
         if (t == 2)
         {
-            const int X { 50 };
-            const int Y { 100 };
-            const int LX { 900 };
+            const int X { 200 };
+            const int Y { 90 };
+            const int LX { 600 };
             const int LY { 600 };
             const int L { min(  LY / (r + (c + 1) / 2), LX / (c + 1)) };
             const int D { L / 10 };
