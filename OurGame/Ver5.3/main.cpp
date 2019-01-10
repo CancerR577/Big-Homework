@@ -81,7 +81,7 @@ void clo(Fl_Widget *a,Fl_Window* w){
 
 ///开始界面
 void start_game(){
-    Back_Window* w = new Back_Window(500,405,"Game",1);
+    Back_Window* w = new Back_Window(500,405,"Game");
     wiz = new Fl_Wizard(0,0,500,405," ");
     {
         Fl_Group* Gr = new Fl_Group(0,0,500,405," ");

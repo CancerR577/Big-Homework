@@ -11,19 +11,11 @@
 class Back_Window : public Fl_Window
 {
 public:
-    Back_Window(int W = 1000, int H = 950, const char* title = "Our game", int choice = 0) : Fl_Window(W,H,title)
+    Back_Window(int W = 1000, int H = 950, const char* title = "Our game") : Fl_Window(W,H,title)
     {
         BackBox = new Fl_Box(0,0,W,H);
         fl_register_images();
-        switch(choice){
-        case 0:
-            background = Fl_Shared_Image::get("Background.PNG");
-            break;
-        case 1:
-            background = Fl_Shared_Image::get("First.PNG");
-            break;
-        }
-
+        background = Fl_Shared_Image::get("Background.PNG");
         BackBox->image(background->copy(W,H));
         redraw();
     }
