@@ -15,9 +15,6 @@ public:
         case 1:
             m_pSharedImage = Fl_Shared_Image::get("Wizard.PNG");
             break;
-        case 2:
-            m_pSharedImage = Fl_Shared_Image::get("Wizard2.PNG");
-            break;
         case 3:
             m_pSharedImage = Fl_Shared_Image::get("Wizard3.PNG");
             break;
